@@ -1,0 +1,13 @@
+
+.movie__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.movie-list h4{
+    font-size: 25px;
+    margin: auto;
+    padding: 150px 0;
+}

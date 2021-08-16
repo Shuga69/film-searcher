@@ -1,13 +1,12 @@
-import React,{ useEffect } from 'react';
-import {connect} from 'react-redux';
+import React from 'react';
 import './App.css';
-import {getPosts as getPostsAction} from './redux/reducers/postReducer'
-import Post from "./components/post/Post";
-import PostSection from "./components/post/PostSection";
+import PostSection from "./components/post/MovieSection";
+import Header from "./components/header/Header";
 function App() {
 
     return (
         <div className="container">
+            <Header/>
            <PostSection/>
         </div>
     );
